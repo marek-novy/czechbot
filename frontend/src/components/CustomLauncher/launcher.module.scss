@@ -1,0 +1,58 @@
+@import '../../styles/variables';
+
+@keyframes spin-cw {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes spin-ccw {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.launcher {
+    align-self: flex-end;
+    cursor: pointer;
+    transition: all 200ms ease;
+    margin-top:20px;
+    svg {
+    }
+
+    button {
+        background: $chat_button-background;
+        border: 1px solid darken($chat_button-background, 20%);
+        border-radius: 100px;
+       
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+}
+
+.buttonClose{
+    padding:4px;
+}
+
+.buttonOpen{
+    padding:8px;
+}
+
+.iconOpen {
+    width: auto;
+    height: auto;
+   
+    animation: spin-ccw 100ms linear forwards;
+}
+
+.iconClose {
+    
+    box-sizing: border-box;
+    animation: spin-cw 100ms linear forwards;
+}

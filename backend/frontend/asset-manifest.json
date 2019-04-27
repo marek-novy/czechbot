@@ -1,0 +1,11 @@
+{
+  "main.css": "/static/css/main.12ccfbda.css",
+  "main.js": "/static/js/bundle.js",
+  "main.js.map": "/static/js/bundle.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.3b4a7f9f698f9a1a27bb313319e0b10e.js": "/precache-manifest.3b4a7f9f698f9a1a27bb313319e0b10e.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.12ccfbda.css.map": "/static/css/main.12ccfbda.css.map",
+  "static/media/chat-close.5efddb09.svg": "/static/media/chat-close.5efddb09.svg",
+  "static/media/chat.fdb5eda2.svg": "/static/media/chat.fdb5eda2.svg"
+}
